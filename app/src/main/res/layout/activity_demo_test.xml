@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_app_start"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Test button 1"
+        />
+
+    <Button
+        android:id="@+id/btn_app_ing"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Test button 2"
+        />
+
+    <Button
+        android:id="@+id/btn_app_end"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Test button 3"
+        />
+
+    <Button
+        android:id="@+id/btn_ble_start"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Test button 4"
+        />
+
+    <Button
+        android:id="@+id/btn_ble_ing"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Test button 5"
+        />
+
+    <Button
+        android:id="@+id/btn_ble_end"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Test button 6"
+        />
+
+    <Button
+        android:id="@+id/btn_sync_start"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Test button 7"
+        />
+
+    <Button
+        android:id="@+id/btn_sync_stop"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Test button 8"
+        />
+
+    <Button
+        android:id="@+id/btn_sync_status"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Test button 9"
+        />
+
+</LinearLayout>

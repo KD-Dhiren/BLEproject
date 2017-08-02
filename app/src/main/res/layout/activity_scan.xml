@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/black_06"
+              android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lv_device"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@color/public_line"
+        android:dividerHeight="0.3sp"
+        tools:listitem="@layout/item_device"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Find Device"
+            android:textAllCaps="false"
+            android:textSize="13sp"/>
+
+        <Button
+            android:id="@+id/btn_bind"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Bind Device"
+            android:textAllCaps="false"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+</LinearLayout>

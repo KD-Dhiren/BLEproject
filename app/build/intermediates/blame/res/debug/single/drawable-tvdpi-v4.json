@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "D:\\Android_AVD\\.android\\build-cache\\898e496407d3ec590ed59fe806bd0a0d4d132c1a\\output\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "D:\\Android_AVD\\.android\\build-cache\\898e496407d3ec590ed59fe806bd0a0d4d132c1a\\output\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "D:\\Android_AVD\\.android\\build-cache\\898e496407d3ec590ed59fe806bd0a0d4d132c1a\\output\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "D:\\Android_AVD\\.android\\build-cache\\898e496407d3ec590ed59fe806bd0a0d4d132c1a\\output\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
+    }
+]

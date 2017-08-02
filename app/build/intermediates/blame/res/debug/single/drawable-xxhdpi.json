@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\calorie.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\calorie.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\distance.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\distance.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\footprint.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\footprint.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\active_time.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\active_time.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\heart_beat.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\heart_beat.png"
+    }
+]

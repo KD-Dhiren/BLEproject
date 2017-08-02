@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_write_head"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="write head"
+        />
+
+    <Button
+        android:id="@+id/btn_write_uuid"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="write uuid"
+        />
+
+    <Button
+        android:id="@+id/btn_write_passwor"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="write password"
+        />
+
+    <Button
+        android:id="@+id/btn_get_uuid"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="get uuid"
+        />
+
+    <Button
+        android:id="@+id/btn_get_head"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="get head"
+        />
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="result displayed here"
+        />
+</LinearLayout>

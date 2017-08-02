@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    pre-default
+    <color name="colorPrimary">#91a0ff</color>
+    <color name="colorPrimaryDark">#7783cf</color>
+    <color name="colorAccent">#36deff</color>-->
+
+    <color name="colorPrimary">#335C81</color> <!--ActionBar-->
+    <color name="colorPrimaryDark">#274060</color><!--StatusBar-->
+    <color name="colorAccent">#599ae1</color><!--Theme-->
+
+    <color name="light">#333333</color>
+    <color name="public_bg">#f5f5f5</color>
+    <color name="public_text_38">#383838</color>
+    <color name="public_text_99">#99999B</color>
+    <color name="public_bg_f1">#F1F1F3</color>
+    <color name="public_bg_9c">#9C9C9C</color>
+    <color name="public_line">#C8C8CC</color>
+    <color name="dark">#222222</color>
+    <color name="green_50">#883ea919</color>
+    <color name="green_70">#b33ea919</color>
+    <color name="green_90">#ee3ea919</color>
+    <color name="blue_15">#182da5e4</color>
+    <color name="blue_30">#482da5e4</color>
+    <color name="black_15">#20000000</color>
+    <color name="black_10">#19000000</color>
+    <color name="common_gray_color">#efefef</color>
+    <color name="black_06">#0f000000</color>
+    <color name="black90">#e5000000</color>
+    <color name="black">#000000</color>
+    <color name="gray_888888">#888888</color>
+    <color name="transparent_60">#99000000</color>
+    <color name="gray_90">#E53d3d3d</color>
+    <color name="yellow_85">#d8ffd800</color>
+    <color name="yellow_100">#ffd800</color>
+    <color name="black_70">#b2000000</color>
+    <color name="black_80">#cc000000</color>
+    <color name="white_30">#4cffffff</color>
+    <color name="white_70">#b2ffffff</color>
+    <color name="white_100">#ffffff</color>
+    <color name="white_7f">#FFD800</color>
+    <color name="green">#14c5a1</color>
+    <color name="transparent">#00000000</color>
+    <color name="touming">#18181A</color>
+    <color name="option_unselected">#656565</color>
+    <color name="home_week_false">#28272C</color>
+    <color name="home_week_true">#FFD800</color>
+    <color name="option_selected">#FED801</color>
+    <color name="new_option_selected">#FFD800</color>
+    <color name="st_item_bg">#6000</color>
+    <color name="st_item_line">#2fff</color>
+    <color name="st_item_text">#494949</color>
+    <color name="black_131313">#131313</color>
+    <color name="rzjf">#19d86f</color>
+    <color name="fkfj">#ffb119</color>
+    <color name="mnsx">#DD96FF</color>
+    <color name="qsyj">#00c6ff</color>
+    <color name="bule">#358ef2</color>
+    <color name="timeline_add_2">#e1e0e0</color>
+    <color name="find_select_1">#ffffff</color>
+    <color name="find_select_2">#E1DFE0</color>
+    <color name="letter_select">#FFFEF2</color>
+    <color name="bule1">#3399FF</color>
+    <color name="result_view">#b0000000</color>
+    <color name="red">#FF3A31</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="white">#ffffff</color>
+    <color name="black_trans">#60000000</color>
+
+
+    <item name="blue" type="color">#e57fd8f9</item>
+    <item name="purple" type="color">#e2e7b8ff</item>
+    <item name="green2" type="color">#bfc7ff22</item>
+    <item name="orange" type="color">#afffbb33</item>
+    <item name="red2" type="color">#84ff4444</item>
+    <item name="darkblue" type="color">#caf2ff</item>
+    <item name="darkpurple" type="color">#d4f7e7ff</item>
+    <item name="darkgreen" type="color">#8aaaff00</item>
+    <item name="darkorange" type="color">#7fff8800</item>
+    <item name="darkred" type="color">#6ccc0000</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green2</item>
+        <item>@color/orange</item>
+        <item>@color/red2</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+    </integer-array>
+</resources>

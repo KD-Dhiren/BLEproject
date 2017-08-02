@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_unbind"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Unbundled"/>
+
+            <Button
+                android:id="@+id/btn_unconnect"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Disconnect"/>
+
+            <Button
+                android:id="@+id/btn_connect"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Reconnect"/>
+
+            <Button
+                android:id="@+id/btn_test"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Test"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/btn_sync_health"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Synchronize health information"/>
+
+            <Button
+                android:id="@+id/btn_sync_config"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Synchronize configuration information"/>
+
+            <Button
+                android:id="@+id/btn_function_infos"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="function list"/>
+
+            <Button
+                android:id="@+id/btn_live_data"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Real-time data"/>
+
+            <Button
+                android:id="@+id/btn_sport_data"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Motion data"/>
+
+            <Button
+                android:id="@+id/btn_sleep_data"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Sleep data"/>
+
+            <Button
+                android:id="@+id/btn_heart_data"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Heart rate data"/>
+
+            <Button
+                android:id="@+id/btn_device_info"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Device Information"/>
+
+            <Button
+                android:id="@+id/btn_call_msg"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Call reminders and smart reminders"/>
+
+            <Button
+                android:id="@+id/btn_wear_mode"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Wear pattern"/>
+
+            <Button
+                android:id="@+id/btn_up_hand"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Lift the bowl to identify"/>
+
+            <Button
+                android:id="@+id/btn_lost"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Anti-lost reminder"/>
+
+            <Button
+                android:id="@+id/btn_sos"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Emergency help"/>
+
+            <Button
+                android:id="@+id/btn_find_phone"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Looking for a cell phone"/>
+
+            <Button
+                android:id="@+id/btn_long_sit"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Sedentary reminder"/>
+
+            <Button
+                android:id="@+id/btn_undisturb_mode"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Do not disturb mode"/>
+
+            <Button
+                android:id="@+id/btn_display_mode"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Display mode"/>
+
+            <Button
+                android:id="@+id/btn_heart_Interval"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Heart rate interval"/>
+
+            <Button
+                android:id="@+id/btn_heart_mode"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Heart rate pattern"/>
+
+            <Button
+                android:id="@+id/btn_photo"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Camera control"/>
+
+            <Button
+                android:id="@+id/btn_music"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Music control"/>
+
+            <Button
+                android:id="@+id/btn_alarm"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Alarm clock"/>
+
+            <Button
+                android:id="@+id/btn_goal"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Target setting"/>
+
+            <Button
+                android:id="@+id/btn_userinfo"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="User Info"/>
+
+            <Button
+                android:id="@+id/btn_unit"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Unit setting"/>
+
+            <Button
+                android:id="@+id/btn_restart"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Reboot the device"/>
+
+            <Button
+                android:id="@+id/btn_sendlog"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Send log"/>
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Equipment upgrade (Reset All)"/>
+
+            <Button
+                android:id="@+id/btn_commission"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="custom made"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

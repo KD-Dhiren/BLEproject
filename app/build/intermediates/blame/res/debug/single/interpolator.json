@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\mr_linear_out_slow_in.xml",
+        "source": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\interpolator\\mr_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\mr_fast_out_slow_in.xml",
+        "source": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\interpolator\\mr_fast_out_slow_in.xml"
+    }
+]

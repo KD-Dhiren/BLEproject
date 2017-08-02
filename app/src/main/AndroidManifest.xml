@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.cws.bleproject">
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="com.project.ble.service"/>
+    <!-- ShareSDK Permission -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:name=".controller.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <!--android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        -->
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <!--<action android:name="android.intent.action.VIEW" />-->
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.ScanDeviceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.AlarmActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.AntilostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.CallAndMsgActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.CameraActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.CommissionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.DemoTestActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.DeviceInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.DisPlayModeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.DoNotDisturbActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.FindPhoneActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.FunctionInfosActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.HandModeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.HeartRateActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.HeartRateIntervalActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.HeartRateModeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.LiveDataActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.LongSitActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.MusicActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SendLogActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SetGoalActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SleepActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.UserInfosActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.UpHandActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.UnitActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SyncHealthActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SprotActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SosActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <!-- BLE connection service -->
+        <service
+            android:name="com.veryfit.multi.service.BleConnectService"
+            android:permission="com.project.ble.service">
+        </service>
+
+        <service android:name="no.nordicsemi.android.dfu.DfuService"/>
+
+        <service android:name=".service.CallService"/>
+
+        <service android:name=".service.ResetHeartBeatService_at_12am"/>
+
+    </application>
+
+</manifest>

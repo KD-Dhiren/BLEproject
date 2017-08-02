@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="@color/public_line">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+               android:shape="oval">
+
+            <!-- <item android:state_pressed="true">
+                 <shape android:shape="oval">
+
+                     <gradient android:centerColor="@color/public_line"
+                               android:endColor="@color/public_line"
+                               android:startColor="@color/public_line"/>
+                     <solid android:color="@color/public_line"/>
+                     <stroke android:width="1sp" android:color="@color/black"/>
+
+                 </shape>
+             </item>-->
+
+            <solid android:color="@color/white"/>
+
+            <stroke
+                android:width="0.01sp"
+                android:color="@color/black"/>
+
+        </shape>
+    </item>
+</ripple>

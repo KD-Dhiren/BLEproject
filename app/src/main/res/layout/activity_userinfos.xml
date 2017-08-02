@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/public_bg"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10sp"
+        android:paddingTop="10sp"
+        android:text="Set the user information: the user information in the height and gender and other parameters is to calculate the bracelet steps, calories, kilometers and other important parameters, please the first time the height of the body weight and other parameters set, so that the steps on the bracelet The number of display error () date of birth, the user name can be set"
+        android:textColor="@color/red"
+        android:textSize="13sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/public_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Name : "
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+
+        <EditText
+            android:id="@+id/ed_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/public_bg"
+            android:gravity="center_vertical"
+            android:hint="username"
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/public_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Birthday:"
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+
+        <EditText
+            android:id="@+id/ed_year"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:hint="year"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+
+        <EditText
+            android:id="@+id/ed_month"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:hint="month"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+
+        <EditText
+            android:id="@+id/ed_day"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:hint="day"
+            android:inputType="number"
+            android:maxLength="2"
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/public_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Gender:"
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+
+        <Button
+            android:id="@+id/btn_nan"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="male"
+            android:textColor="@color/white"
+            android:textSize="13sp"/>
+
+        <Button
+            android:id="@+id/btn_nv"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Female"
+            android:textColor="@color/white"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/public_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Height:"
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+
+        <EditText
+            android:id="@+id/ed_height"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/public_bg"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:text="170"
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/public_line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Weight:"
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+
+        <EditText
+            android:id="@+id/ed_weight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/public_bg"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:text="60"
+            android:textColor="@color/public_text_38"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="@color/public_line"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:text="submit"
+        android:textSize="13sp"/>
+
+</LinearLayout>
