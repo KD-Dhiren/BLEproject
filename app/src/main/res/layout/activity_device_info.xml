@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="There are two types of device information, the first is the case of equipment connected through the order to the device, the second is the device is not connected to the case from the database to obtain the latest updated device information for the page display." />
+        android:text="There are two types of device information, the first is the case of equipment connected through the order to the device, the second is the device is not connected to the case from the database to obtain the latest updated device information for the page display."/>
 
-    <Button
+
+    <TextView
         android:id="@+id/btn_device_info"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginTop="10dp"
-        android:text="Get device information" />
+        android:layout_height="42sp"
+        android:layout_gravity="center"
+        android:layout_margin="12sp"
+        android:background="@drawable/bind_find_color_selecter"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Get device information"
+        android:textAllCaps="true"
+        android:textColor="@color/white_disable_selector"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/tv_device_info_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>

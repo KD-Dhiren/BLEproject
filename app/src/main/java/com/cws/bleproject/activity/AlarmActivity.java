@@ -2,6 +2,10 @@ package com.cws.bleproject.activity;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.ActionBar;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.WindowManager;
@@ -14,6 +18,7 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.Switch;
 import android.widget.Toast;
 
+import com.cws.bleproject.Helper.General_Helper;
 import com.cws.bleproject.R;
 import com.cws.bleproject.view.BufferDialog;
 import com.veryfit.multi.config.Constants;
@@ -27,8 +32,8 @@ import java.util.List;
 
 /**
  * @author Administrator demo
- * Only to provide a demonstration, only set a group of alarm clock, alarm clock maximum support ten, the developer can set their own, for the convenience of presentation, demo only set one
- * Each time you add or delete alarm clock must be re-submitted all the alarm clock, or will not set up
+ *         Only to provide a demonstration, only set a group of alarm clock, alarm clock maximum support ten, the developer can set their own, for the convenience of presentation, demo only set one
+ *         Each time you add or delete alarm clock must be re-submitted all the alarm clock, or will not set up
  */
 public class AlarmActivity extends BaseActivity implements android.widget.CompoundButton.OnCheckedChangeListener {
     private Switch switchAlarm, switch1, switch2, switch3, switch4, switch5, switch6, switch7;
@@ -54,6 +59,7 @@ public class AlarmActivity extends BaseActivity implements android.widget.Compou
         initView();
         initData();
         addListener();
+        setupActionBar();
     }
 
     @Override
@@ -269,17 +275,45 @@ public class AlarmActivity extends BaseActivity implements android.widget.Compou
     }
 
     @Override
-    public void onSysEvt(int arg0, int arg1, int arg2, int arg3) {
+    public void onSysEvt(int arg0, int action, int isSuccess, int arg3) {
         // TODO Auto-generated method stub
-        super.onSysEvt(arg0, arg1, arg2, arg3);
-        if (arg1 == ProtocolEvt.SYNC_EVT_ALARM_SYNC_COMPLETE.toIndex() && arg2 == ProtocolEvt.SUCCESS) {
+        super.onSysEvt(arg0, action, isSuccess, arg3);
+        Log.e("Alarm_Action", action + "");
+        if (action == ProtocolEvt.SYNC_EVT_ALARM_SYNC_COMPLETE.toIndex() && isSuccess == ProtocolEvt.SUCCESS) {
             mHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     dialog.dismiss();
-                    Toast.makeText(AlarmActivity.this, "The alarm was set up successfully", Toast.LENGTH_LONG).show();
+                    General_Helper.custom_WhiteToast(AlarmActivity.this, "The alarm was set up successfully", true, R.drawable.custom_toast_green_bg, Toast.LENGTH_SHORT);
+//                    Toast.makeText(AlarmActivity.this, "The alarm was set up successfully", Toast.LENGTH_LONG).show();
                 }
             }, 200);
         }
+    }
+
+
+    private void setupActionBar() {
+        setTitle("Alarm Control");
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setDefaultDisplayHomeAsUpEnabled(false);
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setDisplayShowHomeEnabled(true);
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

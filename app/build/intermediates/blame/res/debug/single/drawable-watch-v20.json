@@ -1,14 +1,14 @@
 [
     {
         "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml",
-        "source": "D:\\Android_AVD\\.android\\build-cache\\34edf89168f0b1466e18054d140c861fd37eec4b\\output\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+        "source": "D:\\Android_AVD\\.android\\build-cache\\96d8410f7be4032be1e7333bed0603e31da8d3ba\\output\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml",
-        "source": "D:\\Android_AVD\\.android\\build-cache\\34edf89168f0b1466e18054d140c861fd37eec4b\\output\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+        "source": "D:\\Android_AVD\\.android\\build-cache\\96d8410f7be4032be1e7333bed0603e31da8d3ba\\output\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "D:\\Android_AVD\\.android\\build-cache\\34edf89168f0b1466e18054d140c861fd37eec4b\\output\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+        "source": "D:\\Android_AVD\\.android\\build-cache\\96d8410f7be4032be1e7333bed0603e31da8d3ba\\output\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
     }
 ]

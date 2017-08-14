@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="48sp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,34 +54,50 @@
 
                 <RadioButton
                     android:id="@+id/qichuang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="get up"/>
 
                 <RadioButton
                     android:id="@+id/shuijiao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="go to bed"/>
 
                 <RadioButton
                     android:id="@+id/duanlian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="work out"/>
 
                 <RadioButton
                     android:id="@+id/chiyao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="Take medicine"/>
 
                 <RadioButton
                     android:id="@+id/yuehui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="appointment"/>
 
                 <RadioButton
                     android:id="@+id/juhui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="get together"/>
 
                 <RadioButton
                     android:id="@+id/huiyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="meeting"/>
 
                 <RadioButton
                     android:id="@+id/zidingy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="customize"/>
             </RadioGroup>
 
@@ -94,7 +111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="Set the alarm time"/>
+                android:text="Set the alarm time (use 24 hour format)"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -281,13 +298,16 @@
                 android:layout_marginTop="10dp"
                 android:background="#0099FF"/>
 
-            <Button
-                android:id="@+id/btn_alarm_commit"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginBottom="20dp"
-                android:text="Submit alarm alert settings"/>
         </LinearLayout>
     </ScrollView>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/btn_alarm_commit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bind_find_color_selecter"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="Submit alarm alert settings"
+        android:textColor="@color/white_disable_selector"/>
+</RelativeLayout>

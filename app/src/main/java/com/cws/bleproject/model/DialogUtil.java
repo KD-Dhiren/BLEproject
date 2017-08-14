@@ -22,6 +22,7 @@ public class DialogUtil {
     public static String photoPath = "/avatar.jpg";
     private static Toast toast;
     private static AlertDialog waitDialog;
+
     public static void showToast(Context context, String msg) {
 
         if (context == null) {
@@ -46,20 +47,19 @@ public class DialogUtil {
         showToast(context, msg);
     }
 
-    public static void showWaitDialog(Activity activity, String msg){
+    public static void showWaitDialog(Activity activity, String msg) {
 
-        waitDialog= new ProgressDialog(activity);
+        waitDialog = new ProgressDialog(activity);
         waitDialog.setMessage(msg);
         waitDialog.show();
 
     }
 
-    public static void updateWaitDialog(String msg){
-        if (waitDialog!=null&& waitDialog.isShowing()) {
+    public static void updateWaitDialog(String msg) {
+        if (waitDialog != null && waitDialog.isShowing()) {
             waitDialog.setMessage(msg);
         }
     }
-
 
 
     public static void closeAlertDialog() {
@@ -88,8 +88,6 @@ public class DialogUtil {
         }
         return true;
     }
-
-
 
 
 }

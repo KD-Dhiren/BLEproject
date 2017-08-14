@@ -34,12 +34,21 @@
                     android:textOff="off"
                     android:textOn="on"/>
 
-                <Button
+                <TextView
                     android:id="@+id/btn_call"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38sp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
-                    android:text="Simulate a phone"/>
+                    android:background="@drawable/bind_find_color_selecter"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="6sp"
+                    android:text="Simulate a phone"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white_disable_selector"
+                    android:textStyle="bold"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -57,12 +66,21 @@
                     android:textOff="off"
                     android:textOn="on"/>
 
-                <Button
+                <TextView
                     android:id="@+id/btn_msg"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38sp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
-                    android:text="Simulate a text message"/>
+                    android:background="@drawable/bind_find_color_selecter"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="6sp"
+                    android:text="Simulate a text message"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white_disable_selector"
+                    android:textStyle="bold"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -80,12 +98,21 @@
                     android:textOff="off"
                     android:textOn="on"/>
 
-                <Button
+                <TextView
                     android:id="@+id/btn_face"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38sp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
-                    android:text="Simulate a facebookk"/>
+                    android:background="@drawable/bind_find_color_selecter"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="6sp"
+                    android:text="Simulate a facebook"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white_disable_selector"
+                    android:textStyle="bold"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -103,12 +130,22 @@
                     android:textOff="off"
                     android:textOn="on"/>
 
-                <Button
+                <TextView
                     android:id="@+id/btn_mess"
+
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38sp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
-                    android:text="Simulate a Messenger"/>
+                    android:background="@drawable/bind_find_color_selecter"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="6sp"
+                    android:text="Simulate a Messenger"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white_disable_selector"
+                    android:textStyle="bold"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -126,12 +163,21 @@
                     android:textOff="off"
                     android:textOn="on"/>
 
-                <Button
+                <TextView
                     android:id="@+id/btn_what"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38sp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
-                    android:text="Simulate a Whatsapp"/>
+                    android:background="@drawable/bind_find_color_selecter"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="6sp"
+                    android:text="Simulate a Whatsapp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white_disable_selector"
+                    android:textStyle="bold"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -149,12 +195,21 @@
                     android:textOff="off"
                     android:textOn="on"/>
 
-                <Button
+                <TextView
                     android:id="@+id/btn_twit"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38sp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
-                    android:text="Simulate a Twitter"/>
+                    android:background="@drawable/bind_find_color_selecter"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="6sp"
+                    android:text="Simulate a Twitter"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white_disable_selector"
+                    android:textStyle="bold"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -172,12 +227,21 @@
                     android:textOff="off"
                     android:textOn="on"/>
 
-                <Button
+                <TextView
                     android:id="@+id/btn_wx"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38sp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
-                    android:text="Simulate a micro letter"/>
+                    android:background="@drawable/bind_find_color_selecter"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="6sp"
+                    android:text="Simulate a micro letter"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white_disable_selector"
+                    android:textStyle="bold"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -195,12 +259,22 @@
                     android:textOff="off"
                     android:textOn="on"/>
 
-                <Button
+                <TextView
                     android:id="@+id/btn_inst"
+
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38sp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
-                    android:text="Simulate an Instagram"/>
+                    android:background="@drawable/bind_find_color_selecter"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="6sp"
+                    android:text="Simulate an Instagram"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white_disable_selector"
+                    android:textStyle="bold"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -218,12 +292,21 @@
                     android:textOff="off"
                     android:textOn="on"/>
 
-                <Button
+                <TextView
                     android:id="@+id/btn_link"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38sp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
-                    android:text="Simulate a Linkedin"/>
+                    android:background="@drawable/bind_find_color_selecter"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="6sp"
+                    android:text="Simulate a Linkedin"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white_disable_selector"
+                    android:textStyle="bold"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -241,12 +324,21 @@
                     android:textOff="off"
                     android:textOn="on"/>
 
-                <Button
+                <TextView
                     android:id="@+id/btn_qq"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38sp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
-                    android:text="Simulation of a QQ"/>
+                    android:background="@drawable/bind_find_color_selecter"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="6sp"
+                    android:text="Simulation of a QQ"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white_disable_selector"
+                    android:textStyle="bold"/>
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

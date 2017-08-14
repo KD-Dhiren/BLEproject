@@ -1,5 +1,17 @@
 [
     {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\graph_bg.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\graph_bg.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_device_selected.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\ic_device_selected.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\graph_bg_half.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\graph_bg_half.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\calorie.png",
         "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\calorie.png"
     },
@@ -8,15 +20,43 @@
         "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\distance.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_action_refresh.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_refresh.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\footprint.png",
         "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\footprint.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ble_android_device.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\ble_android_device.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_action_not_connected_available.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_not_connected_available.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\iv_action_ble_connected.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\iv_action_ble_connected.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ble_band_device.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\ble_band_device.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\active_time.png",
         "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\active_time.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_searching_dots.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\ic_searching_dots.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\heart_beat.png",
         "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\heart_beat.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\BLEproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ble_android_device_splash.png",
+        "source": "D:\\AndroidStudioProjects\\BLEproject\\app\\src\\main\\res\\drawable-xxhdpi\\ble_android_device_splash.png"
     }
 ]

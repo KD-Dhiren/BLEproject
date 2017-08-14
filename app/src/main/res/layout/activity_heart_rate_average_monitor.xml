@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/txt_re_fresh"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_live_data"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:background="@color/common_gray_color"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="1sp">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="45sp"
+                android:layout_gravity="center"
+                android:layout_marginRight="0.5sp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center|left"
+                android:paddingLeft="5sp"
+                android:text="\u2055  Live heart rate"/>
+            <!--\u2055 for star-->
+
+            <TextView
+                android:id="@+id/txt_chr"
+                android:layout_width="0sp"
+                android:layout_height="45sp"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:background="@color/white"
+                android:gravity="center|left"
+                android:paddingLeft="10sp"
+                android:text="0"/>
+
+            <CheckBox
+                android:id="@+id/cb_live_data"
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"
+                android:layout_marginRight="0.5sp"
+                android:background="@color/white"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_today_total"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:background="@color/common_gray_color"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:padding="0.5sp">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="45sp"
+                android:layout_gravity="center"
+                android:layout_marginRight="0.5sp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center|left"
+                android:paddingLeft="5sp"
+                android:text="\u2055  Today's Total average."/>
+
+            <TextView
+                android:id="@+id/txt_today_avg"
+                android:layout_width="0sp"
+                android:layout_height="45sp"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:background="@color/white"
+                android:gravity="center|left"
+                android:paddingLeft="10sp"
+                android:text="0"/>
+
+            <CheckBox
+                android:id="@+id/cb_today_total"
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"
+                android:layout_marginRight="0.5sp"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_total_till_now"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:background="@color/common_gray_color"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:padding="0.5sp">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="45sp"
+                android:layout_gravity="center"
+                android:layout_marginRight="0.5sp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center|left"
+                android:paddingLeft="5sp"
+                android:text="\u2055  Total average till now"/>
+
+            <TextView
+                android:id="@+id/txt_last_day_avg"
+                android:layout_width="0sp"
+                android:layout_height="45sp"
+                android:layout_weight="0.8"
+                android:background="@color/white"
+                android:gravity="center|left"
+                android:paddingLeft="10sp"
+                android:text="0"/>
+
+            <CheckBox
+                android:id="@+id/cb_total_till_now"
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"
+                android:layout_marginRight="0.5sp"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:alpha="0.4"
+            android:background="@color/tomato_red"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.5"
+                android:background="@drawable/graph_bg_half"/>
+
+            <com.robinhood.spark.SparkView
+                android:id="@+id/sparkview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50sp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="40sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50sp"
+                android:elevation="5sp"
+                android:gravity="center|end"
+                android:orientation="horizontal"
+                android:padding="10sp">
+
+                <TextView
+                    android:id="@+id/txt_chart_data_type"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="Live Heart Rate"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txt_chart_scrub_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center|end"
+                    android:singleLine="true"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txt_max"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="25sp"
+                android:padding="5sp"
+                android:text="xxx"
+                android:textColor="@color/colorPrimary"/>
+
+            <ListView
+                android:id="@+id/list_y_axis"
+                android:layout_width="50sp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="70sp"
+                android:layout_marginTop="40sp"
+                android:divider="@null"
+                android:padding="5sp"
+                tools:listitem="@layout/custom_item_for_y_axis"/>
+
+            <View
+                android:id="@+id/view_hr"
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/tomato_red"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/txt_min"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30sp"
+                android:paddingBottom="50sp"
+                android:paddingLeft="5sp"
+                android:text="xxx"
+                android:textColor="@color/colorPrimary"/>
+
+            <View
+                android:layout_width="2sp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/list_y_axis"
+                android:background="@color/tomato_red"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_refresh_graph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16sp"
+        android:src="@drawable/ic_action_refresh"
+        app:fabSize="normal"/>
+
+    <TextView
+        android:id="@+id/txt_re_fresh"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bind_find_color_selecter"
+        android:focusable="false"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Refresh Graph"
+        android:textColor="@color/white_disable_selector"
+        android:visibility="gone"/>
+</RelativeLayout>

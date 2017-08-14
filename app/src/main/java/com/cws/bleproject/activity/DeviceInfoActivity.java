@@ -2,9 +2,11 @@ package com.cws.bleproject.activity;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.TextView;
 
 import com.cws.bleproject.R;
@@ -26,9 +28,9 @@ import com.veryfit.multi.nativeprotocol.ProtocolUtils;
 
 public class DeviceInfoActivity extends BleActivity {
 
-    private Button btnDeviceInfo;
+    private TextView btnDeviceInfo;
     private TextView tvDeviceData;
-    private Handler mHandler = new Handler();
+    private Handler handler = new Handler();
     private BufferDialog dialog;
 
     @Override
@@ -37,33 +39,45 @@ public class DeviceInfoActivity extends BleActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_device_info);
         initView();
+        setupActionBar();
     }
 
     public void initView() {
         dialog = new BufferDialog(DeviceInfoActivity.this);
         ProtocolUtils.getInstance().setProtocalCallBack(this);
-        btnDeviceInfo = (Button) findViewById(R.id.btn_device_info);
+        btnDeviceInfo = (TextView) findViewById(R.id.btn_device_info);
         tvDeviceData = (TextView) findViewById(R.id.tv_device_info_data);
+
 
         //There are two types of device information, the first is the case of equipment connected through the order to the device, the second is the device is not connected to the case from the database to obtain the latest updated device information for the page display.
         btnDeviceInfo.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                //BLUETOOTH_NOT_OPEN// 蓝牙没打开
-                //DEVICE_NOT_CONNECT// 设备未连接
-                //DEVICE_NO_BLUEETOOTH// 无蓝牙设备
-                //SUCCESS// 一切正常
+                //BLUETOOTH_NOT_OPEN//
+                //DEVICE_NOT_CONNECT//
+                //DEVICE_NO_BLUEETOOTH//
+                //SUCCESS//
                 if (ProtocolUtils.getInstance().isAvailable() == ProtocolUtils.SUCCESS) {
-                    dialog.setTitle("Please wait");
+                    dialog.setTitle(getResources().getString(R.string.please_wait));
                     dialog.show();
                     ProtocolUtils.getInstance().getDeviceInfo();
                 } else {
                     if (ProtocolUtils.getInstance().getDeviceByDb() != null) {
                         final BasicInfos info = ProtocolUtils.getInstance().getDeviceByDb();
-                        mHandler.post(new Runnable() {
+                        handler.post(new Runnable() {
                             @Override
                             public void run() {
-                                tvDeviceData.setText("Device Information：\n\n" + info.toString());
+                                StringBuilder sb = new StringBuilder();
+                                String split[], equalizeSplit[];
+                                Log.e("device_info", info.toString());
+//                                [dId=1, deivceId=43, macAddress=C2:FA:98:A9:6A:EA, basicName=ID101 HR, sysTime=1501857776122, firmwareVersion=37, battStatus=0, mode=1, pairFlag=1, reboot=0, energe=86]
+                                split = info.toString().split(",");
+                                for (int i = 1; i < split.length; i++) {
+                                    equalizeSplit = split[i].split("=");
+                                    sb.append(equalizeSplit[0] + " : " + equalizeSplit[1] + "\n");
+
+                                }
+                                tvDeviceData.setText("Device Information ： \n\n" + sb);
                             }
                         });
                     }
@@ -72,14 +86,53 @@ public class DeviceInfoActivity extends BleActivity {
         });
     }
 
+    private void setupActionBar() {
+        setTitle("Device Information");
+        android.app.ActionBar actionBar = getActionBar();
+        if (actionBar != null) {
+//            actionBar.setDefaultDisplayHomeAsUpEnabled(false);
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setDisplayShowHomeEnabled(true);
+        }
+    }
+
     @Override
-    public void onDeviceInfo(final BasicInfos arg0) {
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onDeviceInfo(final BasicInfos device_info) {
         // TODO Auto-generated method stub
-        mHandler.post(new Runnable() {
+        handler.post(new Runnable() {
             @Override
             public void run() {
                 dialog.dismiss();
-                tvDeviceData.setText("Device Information：\n\n" + arg0.toString());
+                Log.e("Device_Info", device_info.toString());
+                try {
+                    StringBuilder sb = new StringBuilder();
+                    String split[], equalizeSplit[];
+//                                [dId=1, deivceId=43, macAddress=C2:FA:98:A9:6A:EA, basicName=ID101 HR, sysTime=1501857776122, firmwareVersion=37, battStatus=0, mode=1, pairFlag=1, reboot=0, energe=86]
+                    split = device_info.toString().split(",");
+                    for (int i = 1; i < split.length; i++) {
+                        equalizeSplit = split[i].split("=");
+                        sb.append(equalizeSplit[0] + " : " + equalizeSplit[1] + "\n");
+
+                    }
+                    tvDeviceData.setText("Device Information ： \n\n" + sb);
+                } catch (Exception ignored) {
+                    tvDeviceData.setText("Device Information：\n\n" + device_info.toString());
+                }
             }
         });
     }

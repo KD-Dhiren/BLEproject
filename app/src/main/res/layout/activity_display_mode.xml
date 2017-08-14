@@ -9,7 +9,7 @@
         android:id="@+id/ll_change_mode"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/white"
+        android:background="@drawable/switch_ll_selector"
         android:gravity="center"
         android:orientation="horizontal">
 

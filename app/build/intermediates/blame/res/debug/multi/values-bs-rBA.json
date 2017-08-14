@@ -7,8 +7,369 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
+                    "endColumn": 118,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 118,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 174,
+                    "endColumn": 107,
+                    "endOffset": 277
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 107,
+                        "endOffset": 277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 282,
+                    "endColumn": 122,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 122,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endColumn": 108,
+                    "endOffset": 509
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 108,
+                        "endOffset": 509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 514,
+                    "endColumn": 106,
+                    "endOffset": 616
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 514,
+                        "endColumn": 106,
+                        "endOffset": 616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 621,
+                    "endColumn": 87,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 621,
+                        "endColumn": 87,
+                        "endOffset": 704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 100,
+                    "endOffset": 805
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 100,
+                        "endOffset": 805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 810,
+                    "endColumn": 121,
+                    "endOffset": 927
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 810,
+                        "endColumn": 121,
+                        "endOffset": 927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 932,
+                    "endColumn": 81,
+                    "endOffset": 1009
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 932,
+                        "endColumn": 81,
+                        "endOffset": 1009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1014,
+                    "endColumn": 80,
+                    "endOffset": 1090
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1014,
+                        "endColumn": 80,
+                        "endOffset": 1090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1095,
+                    "endColumn": 85,
+                    "endOffset": 1176
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1095,
+                        "endColumn": 85,
+                        "endOffset": 1176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1181,
+                    "endColumn": 102,
+                    "endOffset": 1279
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1181,
+                        "endColumn": 102,
+                        "endOffset": 1279
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1284,
+                    "endColumn": 104,
+                    "endOffset": 1384
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1284,
+                        "endColumn": 104,
+                        "endOffset": 1384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1389,
+                    "endColumn": 97,
+                    "endOffset": 1482
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1389,
+                        "endColumn": 97,
+                        "endOffset": 1482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1487,
+                    "endColumn": 104,
+                    "endOffset": 1587
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1487,
+                        "endColumn": 104,
+                        "endOffset": 1587
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1592,
+                    "endColumn": 110,
+                    "endOffset": 1698
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1592,
+                        "endColumn": 110,
+                        "endOffset": 1698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1703,
+                    "endColumn": 104,
+                    "endOffset": 1803
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1703,
+                        "endColumn": 104,
+                        "endOffset": 1803
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1808,
+                    "endColumn": 119,
+                    "endOffset": 1923
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1808,
+                        "endColumn": 119,
+                        "endOffset": 1923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1928,
+                    "endColumn": 96,
+                    "endOffset": 2020
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1928,
+                        "endColumn": 96,
+                        "endOffset": 2020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2025,
                     "endColumn": 109,
-                    "endOffset": 160
+                    "endOffset": 2130
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -23,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 165,
+                    "startOffset": 2135,
                     "endColumn": 113,
-                    "endOffset": 274
+                    "endOffset": 2244
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -42,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 279,
+                    "startOffset": 2249,
                     "endColumn": 118,
-                    "endOffset": 393
+                    "endOffset": 2363
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -61,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 398,
+                    "startOffset": 2368,
                     "endColumn": 125,
-                    "endOffset": 519
+                    "endOffset": 2489
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -80,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 524,
+                    "startOffset": 2494,
                     "endColumn": 95,
-                    "endOffset": 615
+                    "endOffset": 2585
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -99,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 620,
+                    "startOffset": 2590,
                     "endColumn": 87,
-                    "endOffset": 703
+                    "endOffset": 2673
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -118,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 708,
+                    "startOffset": 2678,
                     "endColumn": 93,
-                    "endOffset": 797
+                    "endOffset": 2767
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -137,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 802,
+                    "startOffset": 2772,
                     "endColumn": 105,
-                    "endOffset": 903
+                    "endOffset": 2873
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -156,11 +517,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 908,
+                    "startOffset": 2878,
                     "endColumn": 97,
-                    "endOffset": 1001
+                    "endOffset": 2971
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -175,11 +536,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 1006,
+                    "startOffset": 2976,
                     "endColumn": 92,
-                    "endOffset": 1094
+                    "endOffset": 3064
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -194,11 +555,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 1099,
+                    "startOffset": 3069,
                     "endColumn": 95,
-                    "endOffset": 1190
+                    "endOffset": 3160
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -213,11 +574,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 1195,
+                    "startOffset": 3165,
                     "endColumn": 92,
-                    "endOffset": 1283
+                    "endOffset": 3253
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -232,11 +593,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 1288,
+                    "startOffset": 3258,
                     "endColumn": 116,
-                    "endOffset": 1400
+                    "endOffset": 3370
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -251,11 +612,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 1405,
+                    "startOffset": 3375,
                     "endColumn": 116,
-                    "endOffset": 1517
+                    "endOffset": 3487
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -270,11 +631,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 1522,
+                    "startOffset": 3492,
                     "endColumn": 86,
-                    "endOffset": 1604
+                    "endOffset": 3574
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -289,11 +650,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 1609,
+                    "startOffset": 3579,
                     "endColumn": 88,
-                    "endOffset": 1693
+                    "endOffset": 3663
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -308,11 +669,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 1698,
+                    "startOffset": 3668,
                     "endColumn": 98,
-                    "endOffset": 1792
+                    "endOffset": 3762
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -327,11 +688,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 1797,
+                    "startOffset": 3767,
                     "endColumn": 108,
-                    "endOffset": 1901
+                    "endOffset": 3871
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -346,11 +707,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 1906,
+                    "startOffset": 3876,
                     "endColumn": 85,
-                    "endOffset": 1987
+                    "endOffset": 3957
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -365,11 +726,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 1992,
+                    "startOffset": 3962,
                     "endColumn": 93,
-                    "endOffset": 2081
+                    "endOffset": 4051
                 },
                 "from": {
                     "file": "D:\\Android_AVD\\.android\\build-cache\\e122de8c16d5796c5cc200f259e9859cc34d1250\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
@@ -379,6 +740,44 @@
                         "startOffset": 1992,
                         "endColumn": 93,
                         "endOffset": 2081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4056,
+                    "endColumn": 83,
+                    "endOffset": 4135
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2025,
+                        "endColumn": 83,
+                        "endOffset": 2104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4140,
+                    "endColumn": 100,
+                    "endOffset": 4236
+                },
+                "from": {
+                    "file": "D:\\Android_AVD\\.android\\build-cache\\51d72cbb826d76ff9ae45cdeaea1a2114f177d71\\output\\res\\values-bs-rBA\\values-bs-rBA.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2109,
+                        "endColumn": 100,
+                        "endOffset": 2205
                     }
                 }
             }

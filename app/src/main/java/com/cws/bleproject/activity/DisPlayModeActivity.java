@@ -2,6 +2,9 @@ package com.cws.bleproject.activity;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.ActionBar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
@@ -10,6 +13,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.cws.bleproject.Helper.General_Helper;
 import com.cws.bleproject.R;
 import com.cws.bleproject.view.BufferDialog;
 import com.veryfit.multi.config.Constants;
@@ -18,12 +22,12 @@ import com.veryfit.multi.nativeprotocol.ProtocolUtils;
 
 
 public class DisPlayModeActivity extends BaseActivity {
+    public static boolean dis_mode = false;
+    LinearLayout ll_change_mode;
+    TextView txt_display_mode;
     private Switch switchDisPlay;
     private Handler mHandler = new Handler();
     private BufferDialog dialog;
-    LinearLayout ll_change_mode;
-    TextView txt_display_mode;
-    public static boolean dis_mode = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,8 +36,33 @@ public class DisPlayModeActivity extends BaseActivity {
         setContentView(R.layout.activity_display_mode);
         initView();
         initData();
-        setTitle("Device Display Mode");
+        setupActionBar();
         addListener();
+    }
+
+    private void setupActionBar() {
+        setTitle("Device Display Mode");
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setDefaultDisplayHomeAsUpEnabled(false);
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setDisplayShowHomeEnabled(true);
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -50,7 +79,7 @@ public class DisPlayModeActivity extends BaseActivity {
     public void initData() {
         // TODO Auto-generated method stub
         super.initData();
-        // Initialize the display mode data
+        // Initialize the display mode intervalList
         int mode = ProtocolUtils.getInstance().getDisplayMode();
         dis_mode = (mode == Constants.HORIZONTAL_SCREEN_MODE ? true : false);
         switchDisPlay.setChecked(dis_mode);
@@ -76,7 +105,7 @@ public class DisPlayModeActivity extends BaseActivity {
 
             @Override
             public void onCheckedChanged(CompoundButton arg0, boolean isHorizontal) {
-                // The data set after each successful setup is saved in the database for interface display.
+                // The intervalList set after each successful setup is saved in the database for interface display.
                 dialog.show();
                 ProtocolUtils.getInstance().setDisplayMode(isHorizontal ? Constants.HORIZONTAL_SCREEN_MODE : Constants.VERTICAL_SCREEN_MODE);//
                 DisplayMode();
@@ -107,7 +136,8 @@ public class DisPlayModeActivity extends BaseActivity {
                 @Override
                 public void run() {
                     dialog.dismiss();
-                    Toast.makeText(DisPlayModeActivity.this, "Display setting is successful", Toast.LENGTH_LONG).show();
+                    General_Helper.custom_WhiteToast(DisPlayModeActivity.this, "Display setting is successful", true, R.drawable.custom_toast_green_bg, Toast.LENGTH_SHORT);
+//                    Toast.makeText(, Toast.LENGTH_LONG).show();
                 }
             });
         }
